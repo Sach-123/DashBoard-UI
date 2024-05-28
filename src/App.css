@@ -1,0 +1,29 @@
+body {
+  color: white;
+  font-family:calibri;
+}
+.sidebar * {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #60facf;
+  border-radius: 2px;
+}
+
+.sidebar *:hover {
+  background-color: #60facf;
+  color: black;
+  cursor:pointer;
+}
+
+#collapse-btn {
+  filter: invert(77%) sepia(33%) saturate(631%) hue-rotate(106deg)
+    brightness(109%) contrast(96%);
+}
+
+tbody tr:nth-child(even) {
+    background-color:black;
+}
+tbody tr:nth-child(odd) {
+    background-color:#232323;
+}
+
